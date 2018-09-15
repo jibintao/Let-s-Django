@@ -37,7 +37,7 @@
   Run 'python manage.py migrate' to apply them.
   September 16, 2018 - 00:13:41
   Django version 2.1.1, using settings 'mysite.settings'
-  Starting development server at http://127.0.0.1:8000/
+  Starting development server at <http://127.0.0.1:8000/>.
   Quit the server with CTRL-BREAK.
   Error: [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。
 
@@ -45,10 +45,10 @@
 * 再次执行runserver时加上端口好：python manage.py runserver 53421.
 * 如果出现下面内容，就说明我们的server已经成功运行起来了。
   
-  Starting development server at http://127.0.0.1:53421/
+  Starting development server at <http://127.0.0.1:53421/>.
 
   Quit the server with CTRL-BREAK.
 
-* 最后在浏览器中输入：http://127.0.0.1:53421/  ，再按回车.![''](img/01_03.PNG "图2")
+* 最后在浏览器中输入：<http://127.0.0.1:53421/>，再按回车.![''](img/01_03.PNG "图2")
   
 * 如果绿色小火煎出来了，恭喜您！您第一个Python Web 网站完成了！是不是应该写个Hello World之类的？ -_-
