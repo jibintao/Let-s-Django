@@ -1,4 +1,4 @@
-# 第一个Django App
+# 第一个Django项目
 
 ## 作者:Michael Ji(微信：jibintao)
 
