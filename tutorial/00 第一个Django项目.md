@@ -2,7 +2,7 @@
 
 ## 作者:Michael Ji(微信：jibintao)
 
-安装
+### 安装
 
 * 下载并安装Django，使用命令：pip install django，不要使用 PyCharm 或者 其他的IDE中的自动化工具。
   
@@ -20,11 +20,15 @@
   * rls.py 是URL的声明文件。
   * wsgi.py 是WSGI Web server的入口点。
 
-运行
+### 运行
 
 * 知道了这些文件的作用，现在我们来常识运行下这些代码，看看会不会有什么奇迹发生，@_@
 
-* 首先，在命令行中切换当前路径到mysite下面：![''](img/01_02.PNG "图2")
+* 首先，在命令行中切换当前路径到mysite下面：
+
+![''](img/01_02.PNG "图2")
+
+
 * 然后执行命令：python manage.py runserver
 
   PS C:\Data\Let's Django\mysite> python manage.py runserver
